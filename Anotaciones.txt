@@ -1,0 +1,24 @@
+GENERALES
+
+Quiero indicar que suelo dejar comentada una breve descripción de lo que hace cada 
+función y de ser necesario explico en la misma el propósito que tiene cada parámetro 
+que debe recibir y la información que devuelve el return.
+
+Sin embargo, dado el nombre de algunas funciones y sabiendo que su retorno es un 
+valor del tipo bool, evito la lectura de comentarios redundantes. Por ejemplo, al 
+ver el nombre de la función "def is_hot_in_pehuajo(cls) -> bool:" uno intuye el tipo 
+de valor que vamos a recibir y qué está indicando el mismo. Situación que se presenta 
+en más de un ejercicio.
+
+EJERCICIO 2.1
+Me limito a cumplir con la consigna de devolver un valor booleno dado el diagrama de 
+flujo, ya que consideraría devolver el stock disponible para el caso de solicitarse 
+una cantidad superior al stock pero cuando el stock no es igual a 0.
+
+EJERCICIO 2.2
+Para evitar que un usuario ingrese productos inválidos o sin stock, antes de la 
+confección del pedido le presentaría sólo las opciones válidas.
+Dado que dicha solución debo implementarla luego de haberse realizado la consulta, es 
+decir en la función is_product_available, lo que retorné fueron los datos para que la 
+aplicación sepa indicarle y bloquearle al usuario el estado de las opciones que ha 
+solicitado.
